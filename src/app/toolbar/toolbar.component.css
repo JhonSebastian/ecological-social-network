@@ -1,0 +1,45 @@
+:root{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .toolbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      align-items: center;
+      color: white;
+      font-weight: 600;
+      background: #21212E;
+  
+      display: grid;
+      grid-template-columns: 27% 43% 30%;
+  
+      text-align: center;
+  }
+  .item-toolbar span{
+  vertical-align:super;
+  }
+  .item-toolbar input{
+    width: 90%;
+    border-radius: 5px;
+    padding: 8px;
+  }
+  input::placeholder {
+    font-size: 1.2em;
+    padding-left: 10em;
+  }
+  
+  .icons-feed img{
+    display: inline;
+    max-width: 25px;
+    margin-right: 10px;
+  }
+  img.user{
+    display: inline;
+    border-radius: 50%;
+    max-width: 35px;
+    margin-left: 5px;
+  }
+  
+  
